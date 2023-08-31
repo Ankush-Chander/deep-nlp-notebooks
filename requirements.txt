@@ -1,4 +1,7 @@
 gensim
+keras
+matplotlib
 scikit-learn
 spacy
+tensorflow
 ujson
