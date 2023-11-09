@@ -1,4 +1,5 @@
 # How to run llama-2 locally
+
 1. Clone the repository [llama-cpp](https://github.com/ggerganov/llama.cpp)
 ```bash
 git clone git@github.com:ggerganov/llama.cpp.git 
@@ -46,7 +47,7 @@ python3 convert.py models/7B-hf/
 ./main -m ./models/7B-hf/ggml-model-q4_0.gguf -c 512 -b 1024 -n 256 --keep 48     --repeat_penalty 1.0 --color -i     -r "User:" -f prompts/chat-with-bob.txt
 ```
 
-References:
+## References:
 - [Github: llama.cpp](https://github.com/ggerganov/llama.cpp)
 - [HuggingFace: llama-2 repo](https://huggingface.co/meta-llama/Llama-2-7b)
 - [Stack-overflow: Use LLama 2 7B with python](https://stackoverflow.com/a/76967510/2893777)
